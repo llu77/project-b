@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(timeout:*)",
+      "Bash(npx next:*)",
+      "Bash(bash:*)",
+      "Bash(curl:*)",
+      "Bash(dir)",
+      "Bash(cat:*)",
+      "Bash(npm install:*)",
+      "Bash(node:*)",
+      "Bash(wrangler:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Read(//c/Users/llu77/Desktop/**)",
+      "Bash(xcopy:*)",
+      "Bash(npx wrangler:*)",
+      "Bash(set NODE_ENV=production)",
+      "Bash(del /F \"src\\app\\api\\requests\\[id]\\route.ts\")",
+      "Bash(dir:*)",
+      "Bash(export NODE_ENV=production)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
